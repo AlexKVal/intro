@@ -15,6 +15,7 @@ setTimeout(function sunrise () {
         <h1 id="main-title" class="container">A brand new app.</h1>
         <h3 class="container">You're looking at: <code>{{ view.pathFromApp + '.' +view.ext }}</code></h3>
     </div>
+    <p>Current date on the server is: {{ currentDate }}</p>
     <div class="main container clearfix">
         <!-- <h1>Getting started</h1>
         <p>Don't worry, we've got your back.</p> -->
